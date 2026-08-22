@@ -8,8 +8,6 @@
   <img src="https://img.shields.io/badge/-Ollama-000000.svg?style=for-the-badge">
 </p>
 
-- [Python](https://github.com/nozawamitsuki/discord-bot/search?l=python)
-
 ## 概要
 
 ローカルLLM（Ollama）によるドキュメントQ&A・自由会話・マスコットペルソナをまとめたDiscord Botです．
