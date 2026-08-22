@@ -1,0 +1,20 @@
+# 秘密情報・個人設定
+.env
+/private
+
+# Python
+__pycache__/
+*.pyc
+myenv*/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Botの実行時に生成されるデータ（アップロード文書など）
+/data/
+/minutes/
+
+# 後始末待ちファイル
+_to_delete/

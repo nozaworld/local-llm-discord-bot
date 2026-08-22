@@ -1,0 +1,13 @@
+# Discord Bot本体（スラッシュコマンドに対応したdiscord.pyの派生）
+py-cord>=2.5.0
+
+# 環境変数(.env)の読み込み
+python-dotenv>=1.0.0
+
+# OllamaのHTTP APIとの通信
+requests>=2.31.0
+
+# 別途システムにインストールが必要なもの（pip管理外）
+#   Ollama本体 : ローカルLLMサーバー本体。https://ollama.ai/ からインストールし、
+#                 ollama pull <モデル名> でモデルを、RAGを使う場合は
+#                 ollama pull nomic-embed-text で埋め込みモデルも取得してください
